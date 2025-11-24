@@ -1,0 +1,160 @@
+/* 引入字體 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 顏色 */
+:root {
+  --primary-100: #f5fee7;
+  --primary-200: #e8fec5;
+  --primary-300: #c0fa73;
+  --primary-400: #57a203;
+  --neutral-100: #f8f9fa;
+  --neutral-200: #e9ecef;
+  --neutral-300: #dee2e6;
+  --neutral-400: #ced4da;
+  --neutral-500: #adb5bd;
+  --neutral-600: #6c757d;
+  --neutral-700: #495057;
+  --neutral-800: #343a40;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+/* 標籤基本樣式 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400px;
+  letter-spacing: 0.05em;
+  color: var(--neutral-900);
+}
+
+/* 通用樣式 */
+a {
+  color: var(--primary-400);
+  text-underline-offset: 4px;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+.h1 {
+  font-size: 40px;
+}
+.h2 {
+  font-size: 32px;
+}
+.h3 {
+  font-size: 28px;
+}
+.h4 {
+  font-size: 24px;
+}
+.h5 {
+  font-size: 20px;
+}
+.h6 {
+  font-size: 16px;
+}
+
+.text-lg,
+.text-md,
+.text-sm {
+  font-weight: 400;
+}
+
+.text-lg {
+  font-size: 20px;
+}
+.text-md {
+  font-size: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+.text-white {
+  color: var(--color-white);
+}
+
+.text-primary-400 {
+  color: var(--primary-400);
+}
+
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+
+.bg-neutral-100 {
+  background-color: var(--neutral-100);
+}
+/* 間距設定 */
+.container {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.p-48 {
+  padding: 48px;
+}
+.pr-8 {
+  padding-right: 8px;
+}
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.py-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.py-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.mr-12 {
+  margin-right: 12px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+/* page */
+.header {
+  text-align: center;
+  padding-top: 151px;
+  padding-bottom: 151px;
+  background-image: url(../img/Hero\ from\ Week\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
