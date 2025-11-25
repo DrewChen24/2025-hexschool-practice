@@ -206,5 +206,6 @@ img {
 
 .bi {
   padding-right: 8px;
+  /* 使icon底部對齊 */
   vertical-align: bottom;
 }
