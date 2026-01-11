@@ -577,6 +577,10 @@ img {
   .me-md-16 {
     margin-right: 16px;
   }
+  .mb-md-0 {
+    margin-bottom: 0px;
+  }
+
   .mb-md-4 {
     margin-bottom: 4px;
   }
