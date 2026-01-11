@@ -8,11 +8,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 576px) {
+  .header {
+    padding-top: 87px;
+    padding-bottom: 87px;
+    background-image: url(../img/hero-sm.png);
+  }
+}
 
 .intro img {
   max-width: 1076px;
   margin-right: -110px;
   margin-left: -110px;
+}
+@media screen and (max-width: 767px) {
+  .intro img {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 
 .section-line {
@@ -35,7 +49,15 @@
 }
 
 .bi {
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+
   /* 使icon底部對齊 */
   vertical-align: bottom;
+}
+
+.story-link {
+  color: var(--primary-400);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
