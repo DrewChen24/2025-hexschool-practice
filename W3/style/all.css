@@ -105,7 +105,7 @@ img {
 .overflow-x-auto {
   overflow-x: auto;
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
   .overflow-x-md-auto {
     overflow-x: auto;
   }
@@ -682,6 +682,10 @@ img {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+
+  .btn-md {
+    padding: 12px 24px;
   }
 }
 
