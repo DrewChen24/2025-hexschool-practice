@@ -1,11 +1,19 @@
 .breadcrumbs-item + .breadcrumbs-item::before {
-  content: "/";
+  content: '/';
   padding: 0 12px;
   color: var(--neutral-300);
   font-weight: 700;
 }
 .breadcrumbs-item {
   display: flex;
+}
+@media screen and (max-width: 767px) {
+  .breadcrumbs-item + .breadcrumbs-item::before {
+    padding: 0 8px;
+  }
+  .breadcrumbs-item {
+    font-size: 14px;
+  }
 }
 
 .breadcrumbs-item {
